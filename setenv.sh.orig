@@ -1,0 +1,18 @@
+#
+# Defines variables to be used for starting up the Mongo Docker container by running the run_mongo.sh
+#
+
+#
+# DOCKER_CONTAINER_NAME : name of the container, by default is mongo
+# DOCKER_CONTAINER_NAME=mongo
+#
+
+#
+# MONGO_DATA : Persistent folder to store the data, by default is <currentfolder>/mongo_data
+# MONGO_DATA=/path/to/your/mongo_data
+#
+
+#
+# MONGO_PORT : Port of the Mongo DB, by default is 27017
+# MONGO_PORT=<mongo_port, e.g. 27017>
+#
